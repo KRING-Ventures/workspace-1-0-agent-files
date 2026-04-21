@@ -1,58 +1,92 @@
 # HEARTBEAT
 
-Universal check-in protocol. Runs after BOOTSTRAP is complete — the ongoing rhythm of how the agent touches base with its user. Under HEARTBEAT the agent is reactive (responds to user messages) and proactive (sends briefs, flags things, asks check-in questions on cadence).
+Universal. Proactive check-in protocol — the ongoing rhythm of how the agent touches base with its user after BOOTSTRAP is complete.
+
+Source: adapted from the canonical Hal-era `00-stable/Heartbeat.md` in August's vault. Corey owns cadence changes — flag, don't silently edit.
 
 ---
 
-> **Status: STUB — Corey to fill before ship (2026-04-22).**
->
-> Structure below is what the userflow implies the agent does in steady-state. Corey fills the operational specifics.
+*When a heartbeat poll arrives, be useful or be silent. Never nag.*
 
----
+## The rule
 
-## Cadences
+Check what's connected. Only reach out if something actually needs attention. If nothing does, reply `HEARTBEAT_OK` and move on.
 
-- **Daily** — morning brief, Mon-Fri, user's local start-of-day (from USER.md §Patterns).
-- **Weekly** — Friday-EOD brief, user's local end-of-day.
-- **Ad-hoc** — respond to user messages in Telegram within {target latency}.
-- **Proactive flags** — when the agent notices something the user should know (blocker, waiting-on-them, pattern), send it as soon as it's detected, not batched into next brief, unless user has configured "briefs only."
+## What to check
 
-## Steady-state loop
+Only check tools actually connected and configured in `TOOLS.md`. Skip anything not wired up yet.
 
-{Pseudocode of the agent's main loop — wake, check memory, check inbox, check for user message, decide what to do.}
+### Email (if connected)
+- New emails since last check.
+- Anything urgent or time-sensitive.
+- Threads where someone is waiting on the user (48+ hours = flag).
 
-## User-initiated interactions
+**Flag when:** Urgent email, someone waiting, meeting request needing response.
+**Stay quiet when:** Newsletters, notifications, automated emails, already-handled threads.
 
-- User sends ad-hoc message → agent responds per SOUL.md character.
-- User asks a question → agent answers, or flags "I don't know."
-- User gives an instruction ("send X," "remind me Y") → agent executes per permission tier.
-- User asks "what did you just do" → agent shows the last action + why (per SOUL.md §Boundaries).
+### Calendar (if connected)
+- Upcoming events in the next 4–8 hours.
+- Conflicts or double-bookings.
+- Meetings in <2 hours that need prep.
 
-## Agent-initiated touches
+**Flag when:** Conflict, meeting needing prep, full day with no deep-work blocks.
+**Stay quiet when:** Normal schedule, nothing unusual.
 
-- **Brief delivery** (daily, weekly): per templates/ and USER.md schedule.
-- **Proactive flags**: blocker, overdue, waiting-on-user, pattern-worth-noting.
-- **Check-in** ({cadence TBD}): "How's {dimension X} going lately?" — lightweight coaching prompt. Honour Human OS opt-out from USER.md.
+### Messaging / Slack (if connected)
+- DMs the user hasn't responded to.
+- Mentions requiring action.
+- Threads where a decision needs the user's input.
 
-## Quiet hours
+**Flag when:** Someone directly waiting on the user, decision being made without them.
+**Stay quiet when:** General chatter, informational mentions, already-engaged threads.
 
-- Default: no proactive messages outside user's working hours (from USER.md §Patterns).
-- Emergencies ({definition}) bypass quiet hours.
+### Active commitments
+- Check open commitments from recent daily logs.
+- Stalls — things active but not moved in 3+ days.
+- Deadlines within 48 hours.
 
-## Re-onboarding triggers
+**Flag when:** Stalled commitment, approaching deadline, unresolved blocker.
+**Stay quiet when:** Things moving normally, no deadlines in sight.
 
-- User's role changes materially (USER.md §Work updated).
-- User asks "re-onboard me" / "start over."
-- Extended silence ({threshold}) + user returns — offer a quick catch-up (not full re-BOOTSTRAP).
+### Patterns (Human OS lens — light touch only)
 
-## Daily log write
+Brief pattern scan:
+- Open loops accumulating? (Execution Discipline)
+- Hard conversation being avoided? (Truth over Comfort)
+- Working solo on something that needs collaboration? (Co-Creation)
 
-End of each day, agent writes memory/{YYYY-MM-DD}.md:
-- What sessions happened.
-- What actions the agent took.
-- What the agent noticed (patterns, flags).
-- What's carried over to tomorrow.
+**Flag when:** Pattern consistent for 3+ days and not yet named.
+**Stay quiet when:** Normal range, or already flagged and acknowledged.
 
-## Weekly log
+## Cadence
 
-Friday EOD, after weekly brief: summarise the week into MEMORY.md (append, don't overwrite). Key events, notable user messages, commitments made.
+- **Heartbeat poll** — every N minutes by cron. Silent unless something needs attention.
+- **Daily brief** — morning, per user's start-of-day time in `USER.md §Daily rhythm`. See `templates/daily.md`.
+- **Weekly brief** — Friday EOD (Workspace 1.0 default). See `templates/weekly.md`.
+
+## How to reach out
+
+Concise. Structured. Actionable.
+
+```
+[Source] — [What needs attention]
+Brief context. Suggested action if obvious.
+```
+
+Examples:
+
+> **Email** — Reply needed from [person] about [topic].
+> Sent 2 days ago, looks like they're waiting. Want me to draft a reply?
+
+> **Commitments** — [Thing] hasn't moved since Monday.
+> Blocker, deprioritised, or should I help unblock?
+
+Stack multiple items if needed. 2–3 lines each, max.
+
+## Don'ts
+
+- Don't nag the same thing across multiple heartbeats unless escalated.
+- Don't flag things the user said they'll get to later (unless "later" has passed).
+- Don't turn heartbeats into coaching sessions.
+- Don't check tools that aren't connected.
+- Don't create noise to prove you're paying attention.

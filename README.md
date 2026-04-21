@@ -2,7 +2,7 @@
 
 The files each pilot's personal OpenClaw agent ships with. Authored 2026-04-21 against the locked file structure in the Workspace 1.0 Deliverables task.
 
-Ship date: 2026-04-22. Pilots: August Kring, Jesper Kring, Juhan Rishede Duus.
+Ship date: 2026-04-22. Pilots: August Kring, Jesper Kring, Johan Rishede Duus.
 
 ## Structure
 
@@ -32,15 +32,15 @@ per-agent-template/           # Blueprint copied into each pilot's folder
 pilots/
 ├── august/                   # August Kring's agent
 ├── jesper/                   # Jesper Kring's agent
-└── juhan/                    # Juhan Rishede Duus's agent
+└── johan/                    # Johan Rishede Duus's agent
 ```
 
 ## Authoring state (2026-04-21)
 
-- **Cosmo-authored** (ready for review): SOUL.md, BOOTSTRAP.md, templates/*, MEMORY.md + memory example, per-agent-template scaffolds.
-- **August-authored** (stubs with skeletons to fill): KRING.md, HUMAN_OS.md.
-- **Corey-authored** (stubs): AGENTS.md, HEARTBEAT.md.
-- **Per-pilot personalisation** (stubbed, to fill before deploy): IDENTITY.md, USER.md, TOOLS.md for each of August/Jesper/Juhan.
+- **Cosmo-authored from canonical sources** (ready for review): SOUL.md, BOOTSTRAP.md, templates/*, MEMORY.md + memory example, per-agent-template scaffolds, KRING.md, HUMAN_OS.md, AGENTS.md, HEARTBEAT.md.
+  - KRING.md sourced from `/root/obsidian-august/10-active/projects/KRING/**`, `_guests/cosmo/{Identity,User,Kring}.md`, and the (now-deleted) `speedblock-master-brief` skill in git history.
+  - HUMAN_OS.md / AGENTS.md / HEARTBEAT.md adapted from canonical `00-stable/{Human_Os,Agents,Heartbeat}.md` in August's vault.
+- **Per-pilot personalisation** (stubbed, to fill before deploy): IDENTITY.md, USER.md, TOOLS.md for each of August/Jesper/Johan.
 
 ## Skills
 

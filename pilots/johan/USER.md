@@ -1,12 +1,12 @@
-# User Profile — Juhan Rishede Duus
+# User Profile — Johan Rishede Duus
 
-Per-agent. Pilot: Juhan Rishede Duus. Seeded by BOOTSTRAP's first session. Grows over time as the agent learns the user. Agent updates this file directly whenever stable facts about the user change — and always notes the date of the update.
+Per-agent. Pilot: Johan Rishede Duus. Seeded by BOOTSTRAP's first session. Grows over time as the agent learns the user. Agent updates this file directly whenever stable facts about the user change — and always notes the date of the update.
 
 ---
 
 ## Name
 
-Juhan Rishede Duus. {Nickname / what they want to be called — to confirm during BOOTSTRAP.}
+Johan Rishede Duus. {Nickname / what they want to be called — to confirm during BOOTSTRAP.}
 
 ## Location
 
