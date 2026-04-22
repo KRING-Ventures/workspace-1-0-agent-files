@@ -1,10 +1,9 @@
-# Workspace 1.0 — OpenClaw Agent File Set (shared layer)
+# Workspace beta — OpenClaw Agent File Set (shared layer)
 
 The **shared framework layer** for every KRING personal OpenClaw agent. Authored 2026-04-22.
 
 **Ship date:** 2026-04-22 (Workspace Speedblock v1.0)
 **Pilots:** August Kring, Jesper Kring, Johan Rishede Duus
-**Standard tool set (v1.0):** Google Workspace (Calendar / Email / Drive) · Telegram · Notion · GitHub · web search · local files
 
 ## What this repo is
 
@@ -52,7 +51,7 @@ These repos are private by design. Personal context never sits alongside shared 
 ## Two agent layers at KRING
 
 - **Cosmo** — the shared KRING-org OpenClaw agent. One instance for the organisation. Runs in `/root/clawd/`. Not this repo.
-- **Personal OpenClaw agent** — one per user. Three instances in v1.0 (one per pilot). Built on this framework + the pilot's private repo.
+- **Personal OpenClaw agent** — one per user. Three instances in beta (one per pilot). Built on this framework + the pilot's private repo.
 
 ## Skills
 
