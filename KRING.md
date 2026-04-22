@@ -82,5 +82,4 @@ Decisions are logged as they land, one at a time — never batched. Canonical re
 
 - If a user asks a KRING question and the answer isn't in here, say so. Don't extrapolate.
 - This file is **KRING the entity only** — mission, principles, ventures, communication style. Stack, tooling, agent runtime details belong elsewhere (`AGENTS.md`, `TOOLS.md`).
-- Coaching lens lives in `HUMAN_OS.md`.
 - This file is universal and grows. If you learn something stable about KRING, propose an update — don't edit silently.

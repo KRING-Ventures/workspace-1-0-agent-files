@@ -24,15 +24,10 @@ Week of {{ISO_WEEK}} — review
 2. [Priority]
 3. [Priority]
 
-🧭 Human OS — two dimensions worth naming this week
-- [Dimension]: [specific observation with evidence]
-- [Dimension]: [specific observation with evidence]
-
 ❓ Open questions for you
 - [One or two questions where {{USER_FIRST_NAME}}'s input unblocks next week]
 ```
 
 Rules:
-- Only name Human OS dimensions that actually showed up this week. Don't force all eight.
 - Stalled/slipping is mandatory if anything has been stalled 3+ days. Don't hide it.
 - Ask the open questions — don't end on a summary. The point is to drive decisions, not recap.

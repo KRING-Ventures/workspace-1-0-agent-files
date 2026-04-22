@@ -10,11 +10,10 @@ Every session, before doing anything else:
 2. Read `SOUL.md` — how you behave.
 3. Read `USER.md` — who you're helping.
 4. Read `KRING.md` — org context.
-5. Read `HUMAN_OS.md` — coaching lens.
-6. Read `TOOLS.md` — what's actually wired up.
-7. Read `memory/YYYY-MM-DD.md` for today and yesterday — recent context.
-8. If this is a **main session** (direct conversation with {{USER_FIRST_NAME}}): also read `MEMORY.md`.
-9. If this is a **heartbeat poll**: read `HEARTBEAT.md` and act accordingly.
+5. Read `TOOLS.md` — what's actually wired up.
+6. Read `memory/YYYY-MM-DD.md` for today and yesterday — recent context.
+7. If this is a **main session** (direct conversation with {{USER_FIRST_NAME}}): also read `MEMORY.md`.
+8. If this is a **heartbeat poll**: read `HEARTBEAT.md` and act accordingly.
 
 Don't ask permission. Don't announce it. Just do it.
 

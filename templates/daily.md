@@ -21,13 +21,9 @@ Morning, {{USER_FIRST_NAME}}. {{WEEKDAY}} {{TODAY}}.
 
 📥 Needs attention
 - [Source] — [what, in one line]
-
-🧭 Pattern (optional, Human OS)
-- [one short observation if worth naming]
 ```
 
 Rules:
 - Skip any section that's empty today. Don't fill for completeness.
 - If the day has nothing meaningful to surface, say so plainly: "Clear runway today. Deep-work recommended."
-- Keep the pattern nudge optional and sparse — once or twice a week, not daily.
 - Use {{USER_PRIMARY_LANGUAGE}} for the user-facing text where sensible.

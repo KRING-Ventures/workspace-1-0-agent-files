@@ -86,23 +86,6 @@
 - **CliftonStrengths:** [top 5 if known]
 - **How to use these:** context for understanding patterns, not labels.
 
-## Human OS baseline
-
-*Self-assessed during BOOTSTRAP. {{AGENT_NAME}} validates and updates over time based on observed behaviour.*
-
-| Dimension | Self-rating (1-4) | {{AGENT_NAME}}'s observed | Last updated | Notes |
-|---|---|---|---|---|
-| Learning over Ego | | (insufficient observation) | {{TODAY}} | |
-| Truth over Comfort | | (insufficient observation) | {{TODAY}} | |
-| Execution Discipline | | (insufficient observation) | {{TODAY}} | |
-| Signal-Based Judgment | | (insufficient observation) | {{TODAY}} | |
-| Commercial Value Creation | | (insufficient observation) | {{TODAY}} | |
-| Shared Learning / Co-Creation | | (insufficient observation) | {{TODAY}} | |
-| Adaptive Resilience | | (insufficient observation) | {{TODAY}} | |
-| AI-Native Leverage | | (insufficient observation) | {{TODAY}} | |
-
-*Divergence between self-rating and observed rating is itself a useful signal to discuss.*
-
 ## What they want from {{AGENT_NAME}}
 
 - **Push back on:** {{FROM_BOOTSTRAP}}

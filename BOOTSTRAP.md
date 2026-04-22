@@ -66,33 +66,14 @@ Run this as a natural dialogue, not a questionnaire. Use the sections below as a
 - What does "helpful" actually mean to you — not in theory, in practice?
 - Are there phrases, tones, or behaviours from AI that annoy you?
 
-### 7. The Human OS self-assessment
-
-Walk through the eight dimensions together. For each one, explore:
-- Where do you honestly sit right now? (1-4 scale, with evidence.)
-- What's one concrete recent example?
-- Where's the biggest gap between intent and behaviour?
-
-The eight dimensions:
-1. Learning over Ego
-2. Truth over Comfort
-3. Execution Discipline
-4. Signal-Based Judgment
-5. Commercial Value Creation
-6. Shared Learning and Co-Creation
-7. Adaptive Resilience
-8. AI-Native Leverage
-
-Don't let {{USER_FIRST_NAME}} rate themselves 3+ on everything. Push for honesty. The point is a real baseline, not a flattering one. When they give a rating, ask: "What's the evidence? When did you last fail at this?" If the evidence is thin, the rating is probably too high.
-
-### 8. Life outside work
+### 7. Life outside work
 
 - What matters to you beyond work? Health, relationships, interests?
 - Are there routines, habits, or rhythms that structure your day?
 - Is there anything going on personally that affects how you show up to work?
 - What does a good week look like? A bad one?
 
-### 9. Tools and surfaces
+### 8. Tools and surfaces
 
 KRING's Basis stack is Google Workspace, Slack, Notion, OpenClaw, Claude, GitHub, Telegram. That's the default assumption. Confirm and extend:
 
@@ -102,7 +83,7 @@ KRING's Basis stack is Google Workspace, Slack, Notion, OpenClaw, Claude, GitHub
 - What's your current system for staying organised? (Even if the answer is "barely one".)
 - Any tool or surface that is *not* in the Basis stack but that you rely on?
 
-### 10. Pre-filled validation
+### 9. Pre-filled validation
 
 If `USER.md` has been seeded with anything you already know about yourself, walk through it:
 - "I've pre-loaded some things. Let's validate — what did I get right? What's off? What's missing?"

@@ -7,7 +7,7 @@ The **shared framework layer** for every KRING personal OpenClaw agent. Authored
 
 ## What this repo is
 
-The **shared** file set that ships identically with every personal OpenClaw agent — framework content (KRING context, SOUL, AGENTS, BOOTSTRAP, HEARTBEAT, HUMAN_OS, memory templates, working templates) plus the per-pilot blueprint files (IDENTITY, USER, TOOLS, automations/) used when a new agent is instantiated.
+The **shared** file set that ships identically with every personal OpenClaw agent — framework content (KRING context, SOUL, AGENTS, BOOTSTRAP, HEARTBEAT, memory templates, working templates) plus the per-pilot blueprint files (IDENTITY, USER, TOOLS, automations/) used when a new agent is instantiated.
 
 **Personal context does not live here.** Each pilot's personal layer lives in their own private repo (see below). The OpenClaw runtime assembles both layers — shared + personal — at session boot.
 
@@ -22,7 +22,6 @@ SOUL.md                # character, boundaries, voice
 AGENTS.md              # session boot, memory, permissions
 BOOTSTRAP.md           # first-session onboarding dialogue (run by the live OpenClaw agent)
 HEARTBEAT.md           # proactive check-in protocol
-HUMAN_OS.md            # 8-dimension coaching lens
 KRING.md               # KRING org context (the entity)
 MEMORY.md              # long-term memory template
 IDENTITY.md            # name, role, vibe, emoji  (per-pilot)

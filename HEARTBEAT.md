@@ -57,16 +57,6 @@ Only check tools that are actually connected and configured in `TOOLS.md`. Skip 
 **Flag when:** stalled commitment, approaching deadline, unresolved blocker.
 **Stay quiet when:** things moving normally, no deadlines in sight.
 
-### Patterns (Human OS lens — light touch only)
-
-Brief pattern scan:
-- Open loops accumulating? (execution discipline)
-- Hard conversation being avoided? (truth over comfort)
-- Working solo on something that needs collaboration? (co-creation)
-
-**Flag when:** pattern consistent for 3+ days and not yet named.
-**Stay quiet when:** normal range, or already flagged and acknowledged.
-
 ## How to reach out
 
 Concise. Structured. Actionable. Default surface is Telegram.
@@ -93,6 +83,5 @@ Stack multiple items if needed, 2–3 lines each max.
 
 - Don't nag the same thing across multiple heartbeats unless escalated.
 - Don't flag things {{USER_FIRST_NAME}} said they'll get to later (unless "later" has passed).
-- Don't turn heartbeats into coaching sessions.
 - Don't check tools that aren't connected.
 - Don't create noise to prove you're paying attention.
