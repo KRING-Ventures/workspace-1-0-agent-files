@@ -8,7 +8,7 @@ The **shared framework layer** for every KRING OP (personal OpenClaw agent). Aut
 
 ## What this repo is
 
-The **shared** file set that ships identically with every OP — framework content (KRING context, Speedbooting rules, SOUL, AGENTS, BOOTSTRAP, HEARTBEAT, HUMAN_OS, memory templates, working templates) plus the per-pilot blueprint files (IDENTITY, USER, TOOLS, automations/) used when a new OP is instantiated.
+The **shared** file set that ships identically with every OP — framework content (KRING context, SOUL, AGENTS, BOOTSTRAP, HEARTBEAT, HUMAN_OS, memory templates, working templates) plus the per-pilot blueprint files (IDENTITY, USER, TOOLS, automations/) used when a new OP is instantiated.
 
 **Personal context does not live here.** Each pilot's personal layer lives in their own private repo (see below). The OpenClaw runtime assembles both layers — shared + personal — at session boot.
 
@@ -25,7 +25,6 @@ BOOTSTRAP.md           # first-session onboarding dialogue (run by the live OP)
 HEARTBEAT.md           # proactive check-in protocol
 HUMAN_OS.md            # 8-dimension coaching lens
 KRING.md               # KRING org context (the entity)
-SPEEDBOOTING.md        # KRING delivery framework (Playbook + Use-cases + Roadmap)
 MEMORY.md              # long-term memory template
 IDENTITY.md            # name, role, vibe, emoji  (per-pilot)
 USER.md                # user profile, filled during BOOTSTRAP  (per-pilot)
@@ -76,7 +75,6 @@ Placeholders (`{{AGENT_NAME}}`, `{{USER_FIRST_NAME}}`, etc.) use double curly br
 
 - Framework files authored against today's locked decisions.
 - KRING.md sourced from kring.com/about + the Hybrid Venture Studio principles + in-flight project context.
-- SPEEDBOOTING.md reflects the **Playbook + Use-cases + Roadmap** model locked 2026-04-22.
 - Per-pilot blueprint files are template-ready; BOOTSTRAP runs in each OP's live first session.
 
 ## Licence
