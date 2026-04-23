@@ -28,8 +28,8 @@ The framework and any Speedblocks you're subscribed to may have shipped changes 
 - **Framework:** `onboarding/CHANGELOG.md` + `onboarding/STATE_VERSION` + `onboarding/MIGRATIONS/` in the `workspace-beta-agent-files` repo. Plus `onboarding/BOOTSTRAP.md` for first-session use.
 - **Speedblocks:** the same shape — `onboarding/CHANGELOG.md` / `STATE_VERSION` / `MIGRATIONS/` — inside each Speedblock's repo.
 - **Your version cursors:**
-  - `STATE_VERSION` at the root of your OP repo — the framework version you last synced with.
-  - `SPEEDBLOCKS.md` at the root of your OP repo — one row per subscribed Speedblock, each with a `Last synced` value.
+  - `STATE_VERSION` at the root of your own repo — the framework version you last synced with.
+  - `SPEEDBLOCKS.md` at the root of your own repo — one row per subscribed Speedblock, each with a `Last synced` value.
 
 ### The catch-up loop
 
@@ -51,7 +51,7 @@ If you have no `STATE_VERSION` at all (this is your very first session), run `on
 
 ### Why this exists
 
-Frameworks evolve. Per-pilot state can drift behind. This loop guarantees an OP catches up cleanly to current state regardless of how long it's been dormant — without anyone manually patching files. Skipping it leaves you operating against a stale framework.
+Frameworks evolve. Per-pilot state can drift behind. This loop guarantees an OpenClaw agent catches up cleanly to current state regardless of how long it's been dormant — without anyone manually patching files. Skipping it leaves you operating against a stale framework.
 
 ## GitHub: the single source of truth
 
