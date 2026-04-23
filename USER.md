@@ -32,7 +32,9 @@
 
 ### KRING
 
-*Pre-loaded from kring.com. Validate during BOOTSTRAP — confirm everyone's still there, add anyone missing, and fill in `[relationship, key context]` for each from {{USER_FIRST_NAME}}'s perspective.*
+*Pre-loaded from kring.com as the KRING team database — relevant for everyone.*
+
+*If {{USER_FIRST_NAME}} is a KRING member: validate during BOOTSTRAP — confirm everyone's still there, add anyone missing, and fill in `[relationship, key context]` from their perspective. For venture users: this is reference only (who's at KRING) — leave `[relationship, key context]` blank.*
 
 - **Martin Kring** — CEO & Co-founder · [relationship, key context]
 - **Jesper Kring** — Chair & Co-founder · [relationship, key context]
@@ -50,11 +52,7 @@
 
 - **[Name]** — [role, relationship, key context]
 
-### Personal
-
-- **[Name]** — [relationship, key context]
-
-*Note: if any person holds dual context (e.g. family + business), name it here. Dual-context relationships change how hard conversations land.*
+*Note: if any person holds dual context (e.g. family + business), name it here. Dual-context relationships change how hard conversations land at work.*
 
 ## How they think and decide
 
@@ -73,19 +71,6 @@
 - **Gap between self-image and others' experience:** {{FROM_BOOTSTRAP}}
 - **Currently avoiding:** {{FROM_BOOTSTRAP}}
 
-## Self-understanding frameworks
-
-*Optional. Only fill in if the user actively uses these.*
-
-- **MBTI:** [type if known]
-- **Big Five:** [profile if known]
-- **HIGH5:** [top 5 if known]
-- **Enneagram:** [type if known]
-- **Human Design:** [type if known]
-- **BG5:** [profile if known]
-- **CliftonStrengths:** [top 5 if known]
-- **How to use these:** context for understanding patterns, not labels.
-
 ## What they want from {{AGENT_NAME}}
 
 - **Push back on:** {{FROM_BOOTSTRAP}}
@@ -94,19 +79,12 @@
 - **Definition of "helpful":** {{FROM_BOOTSTRAP}}
 - **AI behaviours that annoy them:** {{FROM_BOOTSTRAP}}
 
-## Life outside work
+## Work rhythm
 
-- **Health/fitness:** {{FROM_BOOTSTRAP}}
-- **Relationships:** {{FROM_BOOTSTRAP}}
-- **Routines:**
-  - **Morning:** {{FROM_BOOTSTRAP}}
-  - **Work:** {{FROM_BOOTSTRAP}}
-  - **Exercise:** {{FROM_BOOTSTRAP}}
-  - **Evening:** {{FROM_BOOTSTRAP}}
-  - **Sleep:** {{FROM_BOOTSTRAP}}
-  - **Weekly anchors:** {{FROM_BOOTSTRAP}}
-- **Good week looks like:** {{FROM_BOOTSTRAP}}
-- **Bad week looks like:** {{FROM_BOOTSTRAP}}
+- **Work routines:** {{FROM_BOOTSTRAP}}
+- **Weekly anchors:** {{FROM_BOOTSTRAP}}
+- **Good work week looks like:** {{FROM_BOOTSTRAP}}
+- **Bad work week looks like:** {{FROM_BOOTSTRAP}}
 
 ## Tools and systems
 

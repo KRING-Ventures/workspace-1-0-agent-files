@@ -66,12 +66,10 @@ Run this as a natural dialogue, not a questionnaire. Use the sections below as a
 - What does "helpful" actually mean to you — not in theory, in practice?
 - Are there phrases, tones, or behaviours from AI that annoy you?
 
-### 7. Life outside work
+### 7. Work rhythm
 
-- What matters to you beyond work? Health, relationships, interests?
-- Are there routines, habits, or rhythms that structure your day?
-- Is there anything going on personally that affects how you show up to work?
-- What does a good week look like? A bad one?
+- What routines or weekly anchors structure your work week?
+- What does a good work week look like? A bad one?
 
 ### 8. Tools and surfaces
 
